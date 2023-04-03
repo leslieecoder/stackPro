@@ -1,0 +1,48 @@
+.lessons-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+
+    .lesson{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--light-gray);
+        border-radius: 20px;
+        padding: 20px 30px;
+        gap: 20px;
+        flex-basis: calc(50% - 10px); /* Adjust the width as needed */
+        margin: 20px 50px; 
+        cursor: pointer;
+
+       
+
+        
+
+    }
+
+    .lesson:hover{
+        background-color: var(--light-blue);
+    }
+    
+
+    .text-container{
+        h3{
+            color: var(--purple)
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+
+
+
+}
+
+@media screen and (max-width:1023px){
+    .lessons-container{
+        display: grid;
+        grid-template-columns: 100%;
+            
+}
+}

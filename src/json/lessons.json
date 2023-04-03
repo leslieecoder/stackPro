@@ -1,0 +1,57 @@
+[
+    {
+        "id": 0,
+        "title": "Module 0: Welcomet",
+        "description": "The welcome module introduces the course structure, topics, and required skills. ",
+        "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/v-live.png"
+      },
+    {
+      "id": 1,
+      "title": "Module 1: Introduction to Web Development",
+      "description": "Introduces web development and covers the basics of web architecture.",
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/google-code.png"
+    },
+    {
+      "id": 2,
+      "title": "Module 2: HTML/CSS Basics",
+      "description": "Teaches the fundamentals of HTML and CSS and how to build a web page.",
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/html-filetype.png"
+    },
+    {
+      "id": 3,
+      "title": "Module 3: JavaScript Basics",
+      "description": "eaches the basics of JavaScript and how to add interactivity to web pages.",
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/javascript.png"
+    },
+    {
+      "id": 4,
+      "title": "Module 4: Document Object Model (DOM) Manipulation",
+      "description": "Covers the Document Object Model and how to manipulate it with JavaScript.",
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/web.png"
+    },
+    {
+      "id": 5,
+      "title": "Module 5: Server-Side Web Development with Node.js and Express",
+      "description": "This module covers server-side web development using Node.js and Express, ",
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/server.png"
+    },
+    {
+      "id": 6,
+      "title": "Module 6: Non-Relational Databases with MongoDB",
+      "description": "In this module, you will learn the basics of non-relational databases using MongoDB ",
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/data-configuration.png"
+    },
+    {
+      "id": 7,
+      "title": "Module 7: Front-End Web Development with React",
+      "description": "This module covers front-end web development using React, including creating and managing components, handling state and props, .",
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/react-native.png"
+    },
+    {
+      "id": 8,
+      "title": "Module 8: UX/UI Design Fundamentals",
+      "description": "In this module, you will learn the fundamentals of User Experience (UX) and User Interface (UI) design",
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/windows10-personalization.png"
+    }
+]
+    

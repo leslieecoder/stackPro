@@ -1,0 +1,49 @@
+.banner-container {
+    background-color: var(--purple);
+    display: flex;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 20px ;
+    height: 290px;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+
+    img{
+        width: 20%;
+    }
+
+    
+
+    h1 {
+        color: white;
+        font-size: 70px;
+        .pro{
+            color: var(--light-blue);
+        }
+
+        .ux{
+            color: var(--yellow);
+            
+        }
+
+    
+    }
+
+    p{
+        font-size: 20px;
+        color: white;
+    }
+ 
+
+
+
+
+}
+
+
+
+
+
+
