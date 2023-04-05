@@ -1,0 +1,22 @@
+.dashboard {
+    text-align: center;
+  
+  }
+  
+  h1,h2,h3 {
+    font-family: 'Cabin', sans-serif;;
+  }
+  
+  p{
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .rest-side{
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .lesson-boxes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }

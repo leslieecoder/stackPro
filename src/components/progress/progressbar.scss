@@ -1,0 +1,33 @@
+.progress-container{
+    background-color: var(--light-gray);
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px ;
+    height: 100px;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    
+    .progress-info{
+        display: flex;
+   
+        gap: 30px;
+        p{
+            font-size: 13px;
+        }
+
+        .hours{
+            color: var(--purple);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top:0;
+
+            h1{
+                margin: 0;
+            }
+        }
+    }
+}

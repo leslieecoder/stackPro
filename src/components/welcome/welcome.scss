@@ -1,0 +1,57 @@
+.banner-welcome {
+    background-color: var(--purple);
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px ;
+    height: 150px;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+   
+    .boxes-welcome{
+        width: 200px;
+    }
+    .text{
+        display: flex;
+        text-align: left;
+        gap: 50px;
+        align-items: center;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+   
+
+    
+
+    h1 {
+        color: white;
+        font-size: 40px;
+        margin-bottom: 0;
+    
+        .ux{
+            color: var(--yellow);
+            
+        }
+
+    
+    }
+
+    p{
+        font-size: 20px;
+        color: white;
+       margin-top: 0;
+    }
+ 
+
+
+
+
+}
+
+
+

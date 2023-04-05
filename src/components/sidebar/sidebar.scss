@@ -1,0 +1,67 @@
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    background-color: var(--light-purple);
+    padding: 30px 0;
+
+
+ 
+    .decoration{
+        img{
+            width: 200px;
+          
+        }
+    }
+
+    .logo{
+
+      
+        img{ 
+            width: 60px;
+            margin-left: 40%;
+          
+
+        }
+        h1{
+            color: white;
+            text-align: center;
+
+            .pro{
+                color: var(--light-blue);
+            }
+    
+            .ux{
+                color: var(--yellow);
+                
+            }
+        }
+
+   
+
+    }
+
+
+
+    .menu{
+        margin-top: 50px;
+        font-size: 20px;
+        color: white;
+
+        .nav-Link{
+            color: white;
+            display: block;
+            text-decoration: none;
+            font-family: 'Quicksand', sans-serif;
+            padding: 30px;
+        }
+
+        .nav-Link:hover{
+            background-color: var(--light-blue);
+            color: var(--purple);
+            transition: .5s;
+        }
+
+    }
+
+}
+

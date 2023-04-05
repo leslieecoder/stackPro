@@ -3,15 +3,19 @@ import boxes from '../../assets/light-boxes.png'
 import '../banner/banner.scss'
 
 
-export default function Banner() {
+export default function Banner(props) {
+  
+  const {image = boxes, title = 'stackPro+UX', subtitle='The Ultimate Full-Stack Development + UX/UI Design course' } = props
+
+
   return (
     <div className='banner-container'>
-        <img src={boxes} alt='Boxes'/>
+        <img src={image} alt='Boxes'/>
         <div className='text'>
-            <h1>stack<span className='pro'>Pro</span><span className='ux'>+UX</span></h1>
-            <p>The Ultimate Full-Stack Development + UX/UI Design course</p>
+            <h1>{title}</h1>
+            <p>{subtitle}</p>
         </div>
-        <img src={boxes} alt='Boxes'/>
+        <img src={image} alt='Boxes'/>
     </div>
   )
 }

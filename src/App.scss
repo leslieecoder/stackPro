@@ -9,8 +9,9 @@
   --light-gray: #F5F5F5;
 }
 
-.App {
-  text-align: center;
+.container{
+  display: grid;
+  grid-template-columns: 400px 1fr;
 }
 
 h1,h2,h3 {
@@ -20,3 +21,4 @@ h1,h2,h3 {
 p{
   font-family: 'Quicksand', sans-serif;
 }
+
