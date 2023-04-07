@@ -79,3 +79,13 @@
 
     }
 }
+
+@media screen and (max-width:900px) {
+    .navbar {
+        padding: 0;
+
+        nav {
+            display: none;
+        }
+    }
+}

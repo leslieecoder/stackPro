@@ -1,7 +1,10 @@
 .card-container{
     display: flex;
     justify-content: space-between;
-    margin: 100px 100px;
+    gap: 120px;
+    max-width: 1200px;
+    margin: 80px auto;
+  
    
     h1{
         text-align: center;
@@ -12,14 +15,23 @@
 
             border: 1px solid var(--light-blue) ;
             border-radius: 20px;
-            margin: 100px;
+            
             text-align: center;
             padding:  50px;
 
             img{
                 width: 100px;
             }
+            h3 {
+                color: var(--blue);
+            }
             
         }
 
+}
+
+@media screen and (max-width:900px) {
+    .card-container {
+        padding: 50px;
+    }
 }

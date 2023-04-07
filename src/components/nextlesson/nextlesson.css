@@ -1,0 +1,23 @@
+.nextlesson-container {
+  background-color: #DADDFA;
+  border-radius: 20px;
+  width: 80%;
+  padding: 30px;
+  margin: 30px;
+}
+.nextlesson-container h2 {
+  color: var(--purple);
+  text-align: left;
+  margin-top: 0;
+}
+.nextlesson-container h3 {
+  text-align: left;
+  font-weight: bold;
+}
+.nextlesson-container .lesson-item {
+  background-color: var(--light-gray);
+  text-align: left;
+  padding: 3px 20px;
+  border-radius: 20px;
+  margin: 20px 0;
+}/*# sourceMappingURL=nextlesson.css.map */

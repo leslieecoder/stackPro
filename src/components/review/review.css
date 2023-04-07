@@ -1,0 +1,23 @@
+.review-container {
+  background-image: url("../../assets/review.png");
+  width: 80%;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  margin: 30px;
+  text-align: left;
+}
+.review-container h2 {
+  color: white;
+}
+.review-container p {
+  width: 300px;
+}
+.review-container .emphasis-btn {
+  background-color: var(--yellow);
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 15px;
+}/*# sourceMappingURL=review.css.map */

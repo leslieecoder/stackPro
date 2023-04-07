@@ -1,0 +1,30 @@
+.banner-container {
+  background-color: var(--purple);
+  display: flex;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 20px;
+  height: 150px;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+}
+.banner-container img {
+  width: 20%;
+}
+.banner-container h1 {
+  color: white;
+  font-size: 70px;
+  margin-bottom: 0;
+}
+.banner-container h1 .pro {
+  color: var(--light-blue);
+}
+.banner-container h1 .ux {
+  color: var(--yellow);
+}
+.banner-container p {
+  font-size: 20px;
+  color: white;
+}/*# sourceMappingURL=banner.css.map */

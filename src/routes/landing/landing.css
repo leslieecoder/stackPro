@@ -1,0 +1,240 @@
+.hero {
+  background-color: var(--light-purple);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  display: flex;
+  position: relative;
+}
+.hero img {
+  width: 800px;
+  position: absolute;
+  right: 70px;
+  bottom: -60px;
+}
+.hero .call-to-action {
+  color: white;
+  padding: 100px;
+  font-size: 30px;
+  width: 60%;
+}
+.hero button {
+  background-color: var(--yellow);
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.landing {
+  width: 100vw;
+}
+
+.title {
+  text-align: center;
+  color: var(--purple);
+  margin-top: 200px;
+}
+
+.why {
+  padding: 100px;
+  display: flex;
+  background-color: var(--light-purple);
+  color: var(--light-gray);
+}
+.why .why-btn {
+  background-color: var(--yellow);
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 30px;
+}
+.why img {
+  max-width: 700px;
+}
+.why .why-text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonials {
+  margin-top: 100px;
+}
+.testimonials h1 {
+  text-align: center;
+  color: var(--purple);
+}
+.testimonials .testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+.testimonials .testimonial-container .testimonial {
+  width: 600px;
+  background-color: var(--light-gray);
+  border-radius: 100px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.testimonials .testimonial-container .testimonial img {
+  width: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.testimonials .testimonial-container .name {
+  color: var(--purple);
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.available {
+  background-color: var(--light-purple);
+  margin-top: 200px;
+}
+.available h1 {
+  text-align: center;
+  color: var(--light-gray);
+  padding-top: 100px;
+}
+.available .course-container {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.available .course-container .course {
+  background-color: white;
+  border-radius: 30px;
+  width: 400px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.available .course-container .course img {
+  width: 200px;
+}
+.available button {
+  background-color: var(--yellow);
+  color: var(--purple);
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+.next-level {
+  border-radius: 30px;
+  border: 2px solid var(--light-gray);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: 200px;
+}
+.next-level .container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.next-level .container h2 {
+  color: var(--light-purple);
+}
+.next-level .container h1 {
+  color: var(--blue);
+  font-size: 40px;
+}
+.next-level .container img {
+  width: 600px;
+}
+.next-level .container button {
+  background-color: var(--yellow);
+  color: var(--purple);
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: var(--purple);
+  padding: 50px;
+  margin-top: 200px;
+}
+footer p {
+  color: var(--light-gray);
+  text-align: center;
+}
+footer .icons {
+  color: var(--light-gray);
+  margin: 10px;
+}
+footer div {
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    position: inherit;
+    padding: 30px;
+  }
+  .hero img {
+    position: inherit;
+    width: 400px;
+  }
+  .hero .call-to-action {
+    width: 100%;
+    padding: 20px;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+  .why {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .why img {
+    max-width: 500px;
+  }
+  .available .course-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .next-level {
+    margin: 20px;
+  }
+  .next-level .container {
+    flex-direction: column;
+    padding: 50px;
+  }
+  .next-level .container img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  .testimonials {
+    padding: 20px;
+  }
+}/*# sourceMappingURL=landing.css.map */
