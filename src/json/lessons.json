@@ -3,68 +3,21 @@
         "id": 0,
         "title": "Module 0: Welcomet",
         "description": "The welcome module introduces the course structure, topics, and required skills. ",
-        "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/v-live.png",
-        "lessons": [
-          {
-              "id": 0,
-              "title": "Introduction",
-              "description": "Introduction to the course structure and topics",
-              "duration": "5 minutes"
-          },
-          {
-              "id": 1,
-              "title": "Skills Assessment",
-              "description": "Assessing your current skills for the course",
-              "duration": "10 minutes"
-          }
-      ]
-       
+        "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/v-live.png"
+    
       },
     {
       "id": 1,
       "title": "Module 1: Introduction to Web Development",
       "description": "Introduces web development and covers the basics of web architecture.",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/google-code.png",
-      "lessons": [
-        {
-            "id": 0,
-            "title": "Introduction",
-            "description": "Introduction to web development",
-            "duration": "10 minutes"
-        },
-        {
-            "id": 1,
-            "title": "Web Architecture",
-            "description": "Overview of web architecture",
-            "duration": "15 minutes"
-        }
-    ]
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/google-code.png"
     },
     {
       "id": 2,
       "title": "Module 2: HTML/CSS Basics",
       "description": "Teaches the fundamentals of HTML and CSS and how to build a web page.",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/html-filetype.png",
-      "lessons": [
-        {
-            "id": 0,
-            "title": "HTML Basics",
-            "description": "Fundamentals of HTML",
-            "duration": "30 minutes"
-        },
-        {
-            "id": 1,
-            "title": "CSS Basics",
-            "description": "Fundamentals of CSS",
-            "duration": "30 minutes"
-        },
-        {
-            "id": 2,
-            "title": "Building a Web Page",
-            "description": "Putting HTML and CSS together to create a web page",
-            "duration": "60 minutes"
-        }
-    ]
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/html-filetype.png"
+    
       
       
     },
@@ -72,39 +25,8 @@
       "id": 3,
       "title": "Module 3: JavaScript Basics",
       "description": "eaches the basics of JavaScript and how to add interactivity to web pages.",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/javascript.png",
-      "lessons": [
-        {
-          "id": 1,
-          "title": "Introduction to JavaScript",
-          "description": "Introduces JavaScript and its basic syntax.",
-          "duration": "1 hour"
-        },
-        {
-          "id": 2,
-          "title": "Variables and Data Types",
-          "description": "Teaches how to declare and use variables, and the different data types in JavaScript.",
-          "duration": "2 hours"
-        },
-        {
-          "id": 3,
-          "title": "Control Structures",
-          "description": "Teaches the use of conditional statements and loops in JavaScript.",
-          "duration": "2 hours"
-        },
-        {
-          "id": 4,
-          "title": "Functions",
-          "description": "Teaches how to define and call functions in JavaScript.",
-          "duration": "2 hours"
-        },
-        {
-          "id": 5,
-          "title": "DOM Manipulation with JavaScript",
-          "description": "Teaches how to manipulate the Document Object Model (DOM) using JavaScript.",
-          "duration": "3 hours"
-        }
-      ]
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/javascript.png"
+  
     },
     {
       "id": 4,

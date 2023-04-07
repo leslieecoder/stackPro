@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useEffect } from 'react';
 import { getRedirectResult } from 'firebase/auth';
 
@@ -14,6 +14,7 @@ import {
 const SignIn = () => {
 
   useEffect(async () => {
+    
    const response =  await getRedirectResult(auth);
 
    if (response){
