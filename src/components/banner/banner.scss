@@ -4,7 +4,7 @@
     padding: 30px;
     margin: 30px ;
     border-radius: 20px ;
-    height: 150px;
+    height: auto;
     justify-content: space-between;
     gap: 30px;
     align-items: center;
@@ -21,7 +21,7 @@
 
     h1 {
         color: white;
-        font-size: 70px;
+        font-size: 50px;
         margin-bottom: 0;
         .pro{
             color: var(--light-blue);

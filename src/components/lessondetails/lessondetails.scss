@@ -1,0 +1,27 @@
+
+.lesson-container{
+ text-align: center;
+ height: 100vh; /* set the fixed height */
+ overflow-y: auto; /* make the content scrollable */
+.lesson-content{
+
+    margin: 30px;
+  
+
+    button{
+        background-color: var(--yellow);
+        border: 0;
+        padding: 10px 30px;
+        border-radius: 5px;
+        margin: 0 20px;
+
+        .link{
+            color: var(--purple);
+            font-size: 20px;
+            text-decoration: none;
+            margin: 20px 0;
+
+        }
+    }
+}
+}

@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
 import { Link } from 'react-router-dom';
 
 import data from '../../json/lessons.json';
@@ -7,24 +8,28 @@ import '../lesson-element/lessons.scss'
 import image from '../../assets/module0.png'
 
 export default function Lesson() {
+  const [completedLessons, setCompletedLessons] = useState([]);
 
-  const lesson= data
+  const handleLessonCompletion = (id) => {
+    if (!completedLessons.includes(id)) {
+      setCompletedLessons([...completedLessons, id]);
+    }
+  };
+
   return (
     <div className='lessons-container'>
-        {lesson.map(({title, id, description, image,}) => (
-             <Link to={`/lesson/${id}`} className='lesson'>
+        {data.map(({title, id, description, image, completed}) => (
+             <Link to={`/lesson/${id}`} className='lesson' onClick={() => handleLessonCompletion(id)}>
               <img src={image}/> 
              <div className='text-container'>
                  <h3>{title}</h3>
                  <p>{description}</p>
              </div>
              <div className='check'>
-             <CheckCircleOutlineIcon style={{ color: 'gray' }} />
+               {completedLessons.includes(id) ? <CheckCircleOutlineIcon style={{ color: 'green' }} /> : <RadioButtonUncheckedIcon style={{ color: 'gray' }} />}
              </div>
              </Link>
-
         ))}
-       
     </div>
   )
 }
