@@ -8,7 +8,7 @@ export default function NavBar() {
     <div className='navbar'>
         <div className='logo-nav'>
             <img src={logo} alt='logo'/>
-            <h3>StackPro+UX</h3>
+            <h3>Stack<span className='pro'>Pro</span><span className='ux'>+UX</span></h3>
         </div>
         <nav>
             <Link className='navbar-link' to="/#hero">Home</Link>
@@ -17,8 +17,8 @@ export default function NavBar() {
             <Link className='navbar-link' to="/#hero">Courses</Link>      
         </nav>
         <div className='btns'>
-            <button className='nav-btn'><Link className='btn' to="/login">Login</Link></button>
-            <button className='nav-btn'><Link className='btn' to="/sign-in">Get Started</Link></button>
+            <button className='nav-btn-outline'><Link className='btn-filled' to="/login">Login</Link></button>
+            <button className='nav-btn'><Link className='btn' to="/sign-in">Sign Up</Link></button>
         </div>
     </div>
   )

@@ -9,6 +9,10 @@
   --light-gray: #F5F5F5;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .container{
   display: grid;
   grid-template-columns: 400px 1fr;

@@ -1,0 +1,81 @@
+.navbar{
+    background-color: var(--light-purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+   padding: 0 100px;
+    color: white;
+
+    nav{
+
+        .navbar-link{
+            text-decoration: none;
+            color: white;
+            padding: 0 20px;
+           
+        }
+
+        .navbar-link:hover {
+            color: var(--yellow);
+            transition: 0.2s;
+        }
+        
+    }
+
+    .logo-nav{
+
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        h3{
+            font-size: 40px;
+
+            .pro{
+                color: var(--light-blue);
+            }
+
+            .ux{
+                color: var(--yellow);
+            }
+
+        }
+
+        img{
+            width: 50px;
+        }
+    }
+
+    .btns{
+
+        .nav-btn-outline{
+            background-color: var(--light-purple);
+            color: var(--yellow);
+            border: 1px solid var(--yellow);
+        }
+
+        .btn{
+            text-decoration: none;
+            color: var(--purple);
+            font-weight: bold;
+        }
+
+        .btn-filled{
+            color: var(--yellow);
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        button{
+            background-color: var(--yellow);
+            border: 0;
+            padding: 10px 30px;
+            border-radius: 5px;
+            margin: 0 20px;
+        }
+       
+
+    }
+}

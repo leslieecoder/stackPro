@@ -17,15 +17,15 @@ export default function Sidebar() {
         </div>
 
         <div className='menu'>
-            <Link className='nav-Link' to='/'> <DashboardIcon/> Dashboard</Link>
-            <Link className='nav-Link' to='/modules'> <ClassIcon/>  Modules</Link>
-            <Link className='nav-Link' to='/community'> <ForumIcon/> Community</Link>
-            <Link className='nav-Link' to='/resources'> <ArticleIcon/> Resources</Link>
+            <Link className='nav-Link' to='dashboard'> <DashboardIcon/> Dashboard</Link>
+            <Link className='nav-Link' to='modules'> <ClassIcon/>  Modules</Link>
+            <Link className='nav-Link' to='community'> <ForumIcon/> Community</Link>
+            <Link className='nav-Link' to='resources'> <ArticleIcon/> Resources</Link>
         </div>
         <div className='decoration'>
         <img src={boxes} alt='boxes'/> 
         </div>
-        <Outlet/>
+       
         
 
         </div>
