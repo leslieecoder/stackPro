@@ -11,6 +11,8 @@ import Card from '../../components/cards/Card'
 import { Outlet, Link } from 'react-router-dom'
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import SubscriptionsRoundedIcon from '@mui/icons-material/SubscriptionsRounded';
+import SignUp from '../signup/SignUp';
+import  Login  from '../login/Login'
 export default function Landing() {
    
   const testimonials = [
@@ -140,10 +142,15 @@ export default function Landing() {
               <p>
                 Our online learning  platform offers comprehensive courses in full-stack development and UX design that will equip you with the skills  and knowledge  needed to create cutting-edge web applications.
               </p>
-              <button>Get Started</button>
+          
             </div>
             <img src={nextLevelImg} alt="next level image" />
           </div>
+        </div>
+
+        <div className='login-sign' id='login-sign'>
+        <Login/>
+        <SignUp/>
         </div>
         <footer>
           <p>Developed with love  by Leslie Cruz</p>

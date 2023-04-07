@@ -17,8 +17,8 @@ export default function NavBar() {
             <Link className='navbar-link' to="/#hero">Courses</Link>      
         </nav>
         <div className='btns'>
-            <button className='nav-btn-outline'><Link className='btn-filled' to="/login">Login</Link></button>
-            <button className='nav-btn'><Link className='btn' to="/sign-in">Sign Up</Link></button>
+            <button className='nav-btn-outline'><Link className='btn-filled' to="/dashboard">Login</Link></button>
+            <button className='nav-btn'><Link className='btn' to="/dashboard">Sign Up</Link></button>
         </div>
     </div>
   )

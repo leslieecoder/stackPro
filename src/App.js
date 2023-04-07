@@ -5,9 +5,12 @@ import Dashboard from './routes/dashboard/Dashboard';
 import ModulesLesson from './routes/modules/ModulesLesson'
 import Sidebar from './components/sidebar/Sidebar';
 import Community from './routes/community/Community';
-import SignIn from './routes/signin/SignIn';
+import SignIn from './routes/login/Login';
 import Landing from './routes/landing/Landing';
-
+import SignUp from './routes/signup/SignUp';
+import Lesson from './components/lesson-element/Lesson';
+import data from './json/lessons.json';
+import LessonDetails from './components/lessondetails/LessonDetails';
 
 function App() {
 
@@ -15,6 +18,7 @@ function App() {
   return (
     <div className='container'>
        {location.pathname == "/"?null :<Sidebar />} 
+      
      
       <Routes>
         <Route path='/' element={<Outlet />}>
@@ -22,7 +26,9 @@ function App() {
           <Route path='modules' element={<ModulesLesson />} />
           <Route path='community' element={<Community/>} />
           <Route path='sign-in' element={<SignIn/>} />
-
+          <Route path='sign-up' element={<SignUp/>} />
+          <Route path='lesson' element={<Lesson/>} />
+          <Route path='lesson/:id' element={<LessonDetails />} />
           <Route index element={<Landing/>} />
         </Route>
       </Routes>

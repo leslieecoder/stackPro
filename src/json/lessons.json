@@ -1,23 +1,33 @@
 [
     {
         "id": 0,
-        "title": "Module 0: Welcomet",
+        "title": "Module 0: Welcome",
         "description": "The welcome module introduces the course structure, topics, and required skills. ",
-        "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/v-live.png"
-    
+        "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/v-live.png",
+        "path": "module0",
+        "videoUrl": "https://www.youtube.com/watch?v=CBFWzca0QE8",
+        "content":"Welcome to Stack Pro +UX! My name is Leslie Cruz and I'm a software engineer with a passion for both technical and creative skills. I believe that learning fullstack development with UX design can change your life and help you reach your full potential. That's why I've created this online course to help you become an amazing developer and an excellent designer. By the end of this course, you will have the skills to design and develop a website from start to finish, including the backend, frontend, and UX design. You'll learn how to build real-world projects and have access to support and resources whenever you need them. But this course isn't just about learning new skills – it's also about engaging with the material and with your fellow students. I encourage you to ask questions, share your projects, and collaborate with each other to get the most out of this experience. So if you're ready to take your web development skills to the next level and become a fullstack developer with UX design skills, let's get started!"
+        
+       
       },
     {
       "id": 1,
       "title": "Module 1: Introduction to Web Development",
       "description": "Introduces web development and covers the basics of web architecture.",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/google-code.png"
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/google-code.png",
+      "path": "module1",
+      "videoUrl": "https://www.youtube.com/watch?v=CBFWzca0QE8",
+      "content": "Web development refers to the process of creating websites and web applications that are accessed over the internet. It involves a combination of different programming languages, frameworks, and tools to build and maintain websites. Web development can be broadly categorized into two types: front-end development and back-end development. Front-end development involves creating the user interface of a website, using languages like HTML, CSS, and JavaScript. Back-end development involves building the server-side of a website, managing databases, and handling server-side scripting, using languages like PHP, Python, Ruby, and Java. Web development can also involve additional areas such as web design, content creation, search engine optimization (SEO), and web security. The ultimate goal of web development is to create an efficient, user-friendly, and visually appealing website or web application that meets the needs of its target audience."
+      
     },
     {
       "id": 2,
       "title": "Module 2: HTML/CSS Basics",
       "description": "Teaches the fundamentals of HTML and CSS and how to build a web page.",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/html-filetype.png"
-    
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/html-filetype.png",
+      "path": "module2",
+      "videoUrl": "https://www.youtube.com/watch?v=qz0aGYrrlhU&t=672s",
+      "content": "HTML (Hypertext Markup Language) is used to create the structure of a web page. It is a markup language that consists of various elements that are used to define the different parts of a web page. For example, the <head> element is used to include the title and other metadata of the page, while the <body> element is used to contain the main content of the page. CSS (Cascading Style Sheets) is used to define the presentation of a web page, including the layout, colors, fonts, and other visual elements. CSS works by selecting HTML elements and applying styles to them, such as setting the background color, font size, or margins. To get started with HTML and CSS, here are some basic steps you can follow: Choose a code editor: You'll need a code editor to write and save your HTML and CSS files. There are many free code editors available online, such as Atom, Visual Studio Code, or Sublime Text. Start with HTML: Begin by creating an HTML file and adding the basic structure of a web page, including the <html>, <head>, and <body> elements. You can then add other elements, such as headings, paragraphs, links, and images, to create the content of your page. Add CSS styles: Once you have the basic structure of your web page, you can start adding CSS styles to it. You can define styles for specific HTML elements using selectors, and then apply styles such as background color, font size, or margins. Test and refine: As you write your HTML and CSS, you should test your code in a web browser to see how it looks. You can then make adjustments to your code to improve the design and functionality of your page. There are many resources available online to help you learn HTML and CSS, including tutorials, courses, and documentation. Some popular resources include Codecademy, W3Schools, and Mozilla Developer Network."
       
       
     },
@@ -25,38 +35,59 @@
       "id": 3,
       "title": "Module 3: JavaScript Basics",
       "description": "eaches the basics of JavaScript and how to add interactivity to web pages.",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/javascript.png"
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/javascript.png",
+      "path": "module3",
+      "videoUrl":"https://www.youtube.com/watch?v=xwKbtUP87Dk",
+      "content":"JavaScript is a high-level, dynamic, and interpreted programming language. It is used primarily to create interactive web pages and dynamic web applications. JavaScript is a client-side scripting language, which means that it runs on the user's web browser and can interact with the HTML and CSS of a web page to provide dynamic functionality. JavaScript was created by Brendan Eich at Netscape Communications in 1995. Since then, it has become one of the most popular programming languages in the world, and is widely used for both front-end and back-end web development. JavaScript is a versatile language that can be used for a wide variety of tasks, from simple calculations to complex web applications. Some of the key features of JavaScript include: Variables and data types: JavaScript allows you to declare variables to store values of different data types, such as strings, numbers, and boolean values. Operators: JavaScript supports a wide range of operators for performing arithmetic, comparison, and logical operations. Functions: JavaScript allows you to define functions to perform specific tasks, and to reuse code in your programs. Conditional statements: JavaScript supports if, else, and else if statements for executing code based on conditions. Loops: JavaScript supports for and while loops for iterating over arrays or performing repetitive tasks. Objects: JavaScript allows you to define objects that can store data and methods. DOM manipulation: JavaScript can interact with the Document Object Model (DOM) to manipulate web page elements, such as changing the content of a web page or responding to user interactions. Asynchronous programming: JavaScript allows you to write asynchronous code using callbacks, promises, or async/await syntax. There are many online resources available to help you learn JavaScript, including tutorials, courses, and documentation. Some popular resources include Codecademy, W3Schools, and Mozilla Developer Network. With some practice, you can become proficient in using JavaScript to create dynamic and interactive web applications."
   
     },
     {
       "id": 4,
       "title": "Module 4: Document Object Model (DOM) Manipulation",
       "description": "Covers the Document Object Model and how to manipulate it with JavaScript.",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/web.png"
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/web.png",
+      "path": "module4",
+      "videoUrl":"https://www.youtube.com/watch?v=ipkjfvl40s0",
+      "content":"DOM manipulation with JavaScript refers to the process of using JavaScript to interact with the Document Object Model (DOM) of a web page. The DOM is a tree-like structure that represents the elements and content of an HTML page. With JavaScript, you can access individual elements in the DOM and modify their content, attributes, and style. For example, you can use JavaScript to change the text or HTML content of a paragraph element, add or remove a class from an element, or change the style properties of an element such as its color, font, or position. You can also create new elements and add them to the page, or remove existing elements from the page. In addition, you can use event listeners to respond to user interactions with the page, such as clicks, key presses, or form submissions. When a user interacts with an element, such as clicking a button, JavaScript can respond by changing the content or style of the element, or performing some other action. DOM manipulation with JavaScript is a powerful way to make web pages dynamic and interactive. It allows you to create rich and engaging user interfaces that respond to user input and provide feedback in real-time."
     },
     {
       "id": 5,
       "title": "Module 5: Server-Side Web Development with Node.js and Express",
       "description": "This module covers server-side web development using Node.js and Express, ",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/server.png"
+      "image": "",
+      "path": "module5",
+      "videoUrl": "https://www.youtube.com/watch?v=VShtPwEkDD0",
+      "content": "Server-side web development involves creating web applications that run on a server and provide dynamic content to users through a web browser. Node.js is a popular server-side platform that allows developers to use JavaScript to create web applications that run on the server. In a typical server-side web application, the client (usually a web browser) sends a request to the server, which then processes the request and sends a response back to the client. The server may need to perform various tasks, such as accessing a database, processing user input, or performing complex calculations, in order to generate the response. With Node.js, developers can use JavaScript on the server side to build web applications that handle these tasks. Node.js provides a set of built-in modules that allow developers to perform common server-side tasks such as handling HTTP requests, accessing the file system, and working with databases. Node.js uses an event-driven, non-blocking I/O model, which means that it can handle many concurrent connections without blocking the main thread of execution. This makes it well-suited for building scalable, high-performance web applications. One of the key advantages of Node.js is its ability to use the same language (JavaScript) on both the client and server side. This can simplify the development process and allow developers to reuse code between the two environments. In summary, server-side web development with Node.js involves using JavaScript to create web applications that run on a server and provide dynamic content to users through a web browser. Node.js provides a set of built-in modules that allow developers to handle common server-side tasks, and its event-driven, non-blocking I/O model makes it well-suited for building scalable, high-performance web applications. "
     },
     {
       "id": 6,
       "title": "Module 6: Non-Relational Databases with MongoDB",
       "description": "In this module, you will learn the basics of non-relational databases using MongoDB ",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/data-configuration.png"
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/data-configuration.png",
+      "path": "module6",
+      "videoUrl": "https://www.youtube.com/watch?v=VShtPwEkDD0",
+      "content": "Server-side web development involves creating web applications that run on a server and provide dynamic content to users through a web browser. Node.js is a popular server-side platform that allows developers to use JavaScript to create web applications that run on the server. In a typical server-side web application, the client (usually a web browser) sends a request to the server, which then processes the request and sends a response back to the client. The server may need to perform various tasks, such as accessing a database, processing user input, or performing complex calculations, in order to generate the response. With Node.js, developers can use JavaScript on the server side to build web applications that handle these tasks. Node.js provides a set of built-in modules that allow developers to perform common server-side tasks such as handling HTTP requests, accessing the file system, and working with databases. Node.js uses an event-driven, non-blocking I/O model, which means that it can handle many concurrent connections without blocking the main thread of execution. This makes it well-suited for building scalable, high-performance web applications. One of the key advantages of Node.js is its ability to use the same language (JavaScript) on both the client and server side. This can simplify the development process and allow developers to reuse code between the two environments. In summary, server-side web development with Node.js involves using JavaScript to create web applications that run on a server and provide dynamic content to users through a web browser. Node.js provides a set of built-in modules that allow developers to handle common server-side tasks, and its event-driven, non-blocking I/O model makes it well-suited for building scalable, high-performance web applications. "
+    
     },
     {
       "id": 7,
       "title": "Module 7: Front-End Web Development with React",
       "description": "This module covers front-end web development using React, including creating and managing components, handling state and props, .",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/react-native.png"
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/react-native.png",
+      "path": "module7",
+      "videoUrl": "https://www.youtube.com/watch?v=VShtPwEkDD0",
+      "content": "Server-side web development involves creating web applications that run on a server and provide dynamic content to users through a web browser. Node.js is a popular server-side platform that allows developers to use JavaScript to create web applications that run on the server. In a typical server-side web application, the client (usually a web browser) sends a request to the server, which then processes the request and sends a response back to the client. The server may need to perform various tasks, such as accessing a database, processing user input, or performing complex calculations, in order to generate the response. With Node.js, developers can use JavaScript on the server side to build web applications that handle these tasks. Node.js provides a set of built-in modules that allow developers to perform common server-side tasks such as handling HTTP requests, accessing the file system, and working with databases. Node.js uses an event-driven, non-blocking I/O model, which means that it can handle many concurrent connections without blocking the main thread of execution. This makes it well-suited for building scalable, high-performance web applications. One of the key advantages of Node.js is its ability to use the same language (JavaScript) on both the client and server side. This can simplify the development process and allow developers to reuse code between the two environments. In summary, server-side web development with Node.js involves using JavaScript to create web applications that run on a server and provide dynamic content to users through a web browser. Node.js provides a set of built-in modules that allow developers to handle common server-side tasks, and its event-driven, non-blocking I/O model makes it well-suited for building scalable, high-performance web applications. "
+    
     },
     {
       "id": 8,
       "title": "Module 8: UX/UI Design Fundamentals",
       "description": "In this module, you will learn the fundamentals of User Experience (UX) and User Interface (UI) design",
-      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/windows10-personalization.png"
+      "image": "https://img.icons8.com/nolan/64/1A6DFF/C822FF/windows10-personalization.png",
+      "path": "module8",
+      "videoUrl": "https://www.youtube.com/watch?v=VShtPwEkDD0",
+      "content": "Server-side web development involves creating web applications that run on a server and provide dynamic content to users through a web browser. Node.js is a popular server-side platform that allows developers to use JavaScript to create web applications that run on the server. In a typical server-side web application, the client (usually a web browser) sends a request to the server, which then processes the request and sends a response back to the client. The server may need to perform various tasks, such as accessing a database, processing user input, or performing complex calculations, in order to generate the response. With Node.js, developers can use JavaScript on the server side to build web applications that handle these tasks. Node.js provides a set of built-in modules that allow developers to perform common server-side tasks such as handling HTTP requests, accessing the file system, and working with databases. Node.js uses an event-driven, non-blocking I/O model, which means that it can handle many concurrent connections without blocking the main thread of execution. This makes it well-suited for building scalable, high-performance web applications. One of the key advantages of Node.js is its ability to use the same language (JavaScript) on both the client and server side. This can simplify the development process and allow developers to reuse code between the two environments. In summary, server-side web development with Node.js involves using JavaScript to create web applications that run on a server and provide dynamic content to users through a web browser. Node.js provides a set of built-in modules that allow developers to handle common server-side tasks, and its event-driven, non-blocking I/O model makes it well-suited for building scalable, high-performance web applications. "
+    
     }
 ]
     
