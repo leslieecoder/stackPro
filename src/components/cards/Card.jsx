@@ -27,7 +27,7 @@ export default function Card() {
     <div className='card-container'>
         {card.map(({id, image,title, description}) => (
             <div key= {id} className='card'>
-                <img alt='great image' src={image} />
+                <img alt='great thing' src={image} />
                 <h3>{title}</h3>
                 <p>{description}</p>
             </div>
