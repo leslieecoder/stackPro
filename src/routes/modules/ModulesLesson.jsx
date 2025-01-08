@@ -1,7 +1,6 @@
 import React from 'react'
 import Lesson from '../../components/lesson-element/Lesson';
 import Banner from '../../components/banner/Banner';
-import Sidebar from '../../components/sidebar/Sidebar';
 
 import '../modules/modules.scss'
 

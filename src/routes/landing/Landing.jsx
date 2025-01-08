@@ -8,7 +8,7 @@ import imageIcon from "../../assets/icon-picture.png"
 import nextLevelImg from "../../assets/next-level.png"
 import NavBar from '../../components/navbar/NavBar'
 import Card from '../../components/cards/Card'
-import { Outlet, Link } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import SubscriptionsRoundedIcon from '@mui/icons-material/SubscriptionsRounded';
 import SignUp from '../signup/SignUp';
@@ -52,7 +52,7 @@ export default function Landing() {
           <h1>For designers who love to <span style={{color:"#FFBD59"}}>code</span> and coders who love to desing</h1>
           <button className='nav-btn'>Get Started</button>
         </div>
-        <img src={banner} alt="banner image" />
+        <img src={banner} alt="banner" />
       </div>
       <h1 className='title'>Become a Pro on</h1>
       <Card/>
@@ -72,7 +72,7 @@ export default function Landing() {
       {testimonials.map(element => 
         
           <div className='testimonial'>
-          <img src={imageIcon} alt="" />
+          <img src={imageIcon} alt="great description" />
           <div>
             <div className='content'>{element.testimonial}</div>
             <div className='name'>- {element.name}</div>
@@ -144,7 +144,7 @@ export default function Landing() {
               </p>
           
             </div>
-            <img src={nextLevelImg} alt="next level image" />
+            <img src={nextLevelImg} alt="next level " />
           </div>
         </div>
 

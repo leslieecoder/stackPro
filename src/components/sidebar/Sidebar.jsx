@@ -2,7 +2,7 @@ import React from 'react'
 import boxes from '../../assets/boxes-light.png'
 import logo from '../../assets/logo.png'
 import '../../components/sidebar/sidebar.scss'
-import { Outlet, Link } from 'react-router-dom'
+import {  Link } from 'react-router-dom'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import ClassIcon from '@mui/icons-material/Class';
 import ForumIcon from '@mui/icons-material/Forum';

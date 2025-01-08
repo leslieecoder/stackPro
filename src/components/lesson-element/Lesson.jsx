@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 import data from '../../json/lessons.json';
 import '../lesson-element/lessons.scss'
-import image from '../../assets/module0.png'
 
 export default function Lesson() {
   const [completedLessons, setCompletedLessons] = useState([]);
@@ -20,7 +19,7 @@ export default function Lesson() {
     <div className='lessons-container'>
         {data.map(({title, id, description, image, completed}) => (
              <Link to={`/lesson/${id}`} className='lesson' onClick={() => handleLessonCompletion(id)}>
-              <img src={image}/> 
+              <img alt='this is a great alt description' src={image}/> 
              <div className='text-container'>
                  <h3>{title}</h3>
                  <p>{description}</p>

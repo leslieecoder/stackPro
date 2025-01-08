@@ -1,6 +1,5 @@
 import React from 'react'
 import './dashboard.scss'
-import Sidebar from '../../components/sidebar/Sidebar'
 import Welcome from '../../components/welcome/Welcome'
 import ProgressBar from '../../components/progress/ProgressBar';
 import NextLesson from '../../components/nextlesson/NextLesson'
