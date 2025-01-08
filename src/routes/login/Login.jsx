@@ -1,12 +1,6 @@
 
 import '../login/login.scss'
 
-import { 
-  
-  signInWithGooglePopup, 
-  createUserDocumentFromAuth,
-  } from '../../utils/firebase/Firebase'
-
 
 
 
@@ -14,7 +8,7 @@ const SignIn = () => {
 
 
   const logGoogleUser = async () => {
-    const {user} = await signInWithGooglePopup();
+    // const {user} = await signInWithGooglePopup();
     // const userDocRef = await createUserDocumentFromAuth(user)
   
   }
