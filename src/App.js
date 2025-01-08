@@ -9,7 +9,6 @@ import SignIn from './routes/login/Login';
 import Landing from './routes/landing/Landing';
 import SignUp from './routes/signup/SignUp';
 import Lesson from './components/lesson-element/Lesson';
-import data from './json/lessons.json';
 import LessonDetails from './components/lessondetails/LessonDetails';
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
   const location = useLocation()
   return (
     <div className='container'>
-       {location.pathname == "/"?null :<Sidebar />} 
+       {location.pathname === "/"?null :<Sidebar />} 
       
      
       <Routes>
