@@ -1,4 +1,4 @@
-import { LocalActivity } from '@mui/icons-material'
+
 import React from 'react'
 import Banner from '../../components/banner/Banner'
 import '../lesson/lesson.scss'
